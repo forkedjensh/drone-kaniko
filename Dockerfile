@@ -1,5 +1,6 @@
 FROM gcr.io/kaniko-project/executor:debug
 
+ENV REFRESHED_AT 2022-10-24
 ENV HOME /root
 ENV USER root
 ENV SSL_CERT_DIR=/kaniko/ssl/certs
